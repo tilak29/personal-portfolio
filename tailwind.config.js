@@ -8,10 +8,12 @@ export default {
     extend: {
       fontFamily:{
         Open: ['Open Sans', 'sans-serif'],
+        Roboto: ['Roboto', 'sans-serif'],
         Rampart: ['Rampart One', 'cursive' ],
     },
     colors: {
       'regal-silver': '#8d8d8d',
+      'bluee' : '#08fdd8',
     },
   },
   },

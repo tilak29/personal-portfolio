@@ -4,14 +4,18 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './components/home/home.jsx'
 import Navbar from './components/navbar/navbar'
+import './components/home/hovertree.js'
 
 function App() {
 
   return (
     <>
-      <div>
+    <div className='header'>
+      <div >
         {/* <Navbar/> */}
         <Home/>
+       </div>
+       <canvas id="canvas"></canvas>
        </div>
     </>
   )

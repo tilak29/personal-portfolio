@@ -1,0 +1,15 @@
+.google-map-code{
+    flex-basis: 100%;
+    justify-self: center;
+  }
+  
+  .fourth-map{
+    filter: grayscale(90%) invert(90%);
+  }
+  
+  @media (max-width: 900px) {
+    .google-map-code{
+        flex-basis: 100%;
+        width: 100%;
+      }
+  }
