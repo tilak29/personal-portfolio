@@ -6,6 +6,10 @@ export default {
   ],
   theme: {   
     extend: {
+      fontSize: {
+        primary: '5.5rem',
+        secondary: '4.4rem',
+      },
       fontFamily:{
         Open: ['Open Sans', 'sans-serif'],
         Roboto: ['Roboto', 'sans-serif'],

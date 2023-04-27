@@ -11,8 +11,8 @@ const First = ({children}) => {
     const sentence3 = "Web Developer".split("");
     return(
         <>
-         <div className="mt-20 h-screen" >
-        <div >
+         <div className="mt-20 h-screen " >
+        <div className="text-primary text-white">
         {sentence1.map((letter, index) => {
             return(
                 <Textspan key={index}>
