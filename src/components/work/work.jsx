@@ -1,25 +1,21 @@
 import Textspan from '../home/Textspan';
 import Navbar from '../navbar/navbar';
 import './work.css';
+import work1 from '../../assets/work1.png';
+import work2 from '../../assets/work2.png';
+import work3 from '../../assets/work3.png';
+import work4 from '../../assets/work4.png';
+
 
 const Work = () => {
-    const sentence1 = "work".split("");
 
     return(
         <>
         {/* <Navbar/> */}
-        <div className='flex relative items-center left-10 max-w-[90%]'>
-        <div className="text-bluee text-secondary">
-        {sentence1.map((letter, index) => {
-            return(
-                <Textspan key={index} >
-                    {/* {letter} */}
-                    {letter === " " ? "\u00A0" : letter}
-                </Textspan>
-            )
-            }  
-        )}
-        </div>
+        <div className='flex mt-10 mx-8 gap-6 relative items-center left-10 max-w-[25%]'>
+            <img src={work4} className='basis-full border border-solid'/>
+            <img src={work2} className='basis-full border border-solid'/>
+            <img src={work3} className='basis-full border border-solid'/>
         </div>
 
         </>

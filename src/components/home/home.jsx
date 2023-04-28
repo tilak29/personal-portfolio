@@ -19,7 +19,7 @@ function Home(){
         <First/>
         <Second/>
         </div>
-        <div className="relative left-6 w-[98vw]">
+        <div className="relative left-6 w-[100vw]">
         <Workme/>
         <About/>
         <Contactme/>
