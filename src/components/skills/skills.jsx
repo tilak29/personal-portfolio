@@ -2,6 +2,7 @@ import Textspan from "../home/Textspan";
 import Navbar from "../navbar/navbar";
 import './skills.css'
 
+
 const Skills = () => {
     const sentence1 = "Skills &".split("");
     const sentence2 = "Experience".split("");

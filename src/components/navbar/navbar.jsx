@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logot.png';
+import { FaLinkedin,FaGithub } from 'react-icons/fa';
+import { IoMdMail } from 'react-icons/io';
 
 function Navbar(){
     return(
@@ -7,7 +9,7 @@ function Navbar(){
         <div className="h-screen bg-[#100D15]">
             <div className='bg-black py-5 px-6 flex flex-col justify-center items-center'>
                 <Link to='/'>
-                <img src={logo}/>
+                <img className='ml-4' src={logo}/>
                 <p className='font-Open text-white mt-1 text-[1.5rem] font-bold'>Tilak</p>
                 </Link>
                 <p className='font-Open text-xs text-regal-silver mt-2'>Web Developer</p>
@@ -24,6 +26,11 @@ function Navbar(){
                 </div>
                 <div className='border-regal-silver border-b-[1px] w-full h-full text-center py-4'> 
                 <Link className='text-[#19e4c3]' to='/contact'>Contact</Link>
+                </div>
+                <div className='mt-2 flex gap-3'>
+                    <a href='https://www.linkedin.com/in/tilak-adroja/'><FaLinkedin/></a>
+                    <a href='https://github.com/tilak29'><FaGithub/></a >
+                    <a href='mailto:tilakadroja29@gmail.com'><IoMdMail/></a >
                 </div>
             </div>
         </div>

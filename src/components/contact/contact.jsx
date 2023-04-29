@@ -9,7 +9,7 @@ const Contact = () => {
     return(
         <>
         {/* <Navbar/> */}
-        <div className="flex gap-1 items-center relative left-10 max-w-[85%]">
+        <div className="flex gap-1 items-center relative left-10 w-[85%]">
             <div className="basis-full">
         <div className="text-bluee text-secondary">
         {sentence1.map((letter, index) => {
@@ -24,7 +24,7 @@ const Contact = () => {
         </div>
 
         <div className="text-[#e8e8e8] font-Roboto mt-2 ml-4">
-            <p className="text-ellipsis whitespace-normal break-word">I’m interested in freelance opportunities – especially ambitious or large projects. However, if you have other request or question, don’t hesitate to use the form.
+            <p className="text-ellipsis whitespace-normal break-word">I’m interested in fulltime opportunities – especially ambitious or large projects. However, if you have other request or question, don’t hesitate to use the form.
             </p>
         </div>
 
