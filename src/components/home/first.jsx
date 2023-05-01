@@ -70,7 +70,7 @@ const First = ({children}) => {
 
         
             
-       <Link to='/contact' class="hbtn hb-fill-right mt-8">
+       <Link to='/contact' class="button mt-8">
         Contact me!
         </Link>
         

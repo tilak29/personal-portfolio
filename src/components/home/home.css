@@ -10,7 +10,7 @@ span:hover{
     color: #08fdd8;
 }
   
-.hbtn {
+/* .hbtn {
     position: relative;
     box-sizing: border-box;
     display: inline-block;
@@ -18,8 +18,6 @@ span:hover{
     width: 12rem;
     height: 3rem;
     padding-top: 0.7rem;
-    /* padding: 8px 20px; */
-    /* margin: 0px 3px 6px; */
     text-align: center;
     border: 1px solid #08fdd8;
     color: #08fdd8;
@@ -28,11 +26,6 @@ span:hover{
     white-space: nowrap;
     z-index: 0;
 } 
-
-/* .hbtn i {
-    padding-right: 8px;
-}  */
-
 
 .hb-fill-right::before {
     position: absolute;
@@ -58,7 +51,43 @@ span:hover{
     color: rgb(0, 0, 0);
     background: rgb(255, 255, 255);
     transition: color 0.3s ease 0s, background 0s ease 0.3s;
-} 
+}  */
+
+
+.button {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #08fdd8;
+    outline: 2px solid #08fdd8;
+    font-family: 'Roboto', 'sans-serif';
+    padding: 1rem 3rem;
+    overflow: hidden;
+    transition: color 0.5s;
+}
+
+.button:hover {
+    color: #090909;
+}
+
+.button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50px;
+    z-index: -1;
+    width: 150%;
+    height: 100%;
+    background-color: #08fdd8;
+    transform: scaleX(0) skewX(35deg);
+    transform-origin: left;
+    transition: transform 0.5s;
+}
+
+.button:hover::before {
+    transform: scaleX(1) skewX(35deg);
+}
 
 
 
