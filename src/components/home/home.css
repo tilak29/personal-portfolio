@@ -10,49 +10,9 @@ span:hover{
     color: #08fdd8;
 }
   
-/* .hbtn {
-    position: relative;
-    box-sizing: border-box;
-    display: inline-block;
-    overflow: hidden;
-    width: 12rem;
-    height: 3rem;
-    padding-top: 0.7rem;
-    text-align: center;
-    border: 1px solid #08fdd8;
-    color: #08fdd8;
-    text-decoration: none;
-    font-family: 'Roboto', 'sans-serif';
-    white-space: nowrap;
-    z-index: 0;
-} 
-
-.hb-fill-right::before {
-    position: absolute;
-    content: "";
-    background: #08fdd8;
-    transition-duration: 0.3s;
-    z-index: -1;
-    inset: 0px auto auto 0px;
-    width: 0px;
-    height: 100%;
-    opacity: 1;
-} 
-
-
-.hb-fill-right:hover::before {
-    width: 100%;
-    height: 100%;
-    opacity: 1;
-} 
-
-
-.hb-fill-right:hover {
-    color: rgb(0, 0, 0);
-    background: rgb(255, 255, 255);
-    transition: color 0.3s ease 0s, background 0s ease 0.3s;
-}  */
-
+@media (max-width: 1070px) {
+   
+}
 
 .button {
     position: relative;
@@ -60,9 +20,9 @@ span:hover{
     text-decoration: none;
     letter-spacing: 2px;
     color: #08fdd8;
-    outline: 2px solid #08fdd8;
+    outline: 1px solid #08fdd8;
     font-family: 'Roboto', 'sans-serif';
-    padding: 1rem 3rem;
+    padding: 0.8rem 3rem;
     overflow: hidden;
     transition: color 0.5s;
 }
@@ -88,7 +48,6 @@ span:hover{
 .button:hover::before {
     transform: scaleX(1) skewX(35deg);
 }
-
 
 
 

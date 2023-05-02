@@ -15,7 +15,7 @@ const First = ({children}) => {
     return(
         <>
          <div className="mt-20 h-screen relative left-16 " >
-        <div className="text-primary text-white">
+        <div className="text-third sm:text-secondary lg:text-primary text-white">
         {sentence1.map((letter, index) => {
             return(
                 <Textspan key={index}>

@@ -9,7 +9,7 @@ const Second = () => {
     return(
         <>
         <div className="mt-0 relative left-16 ">
-        <div className="text-bluee text-secondary">
+        <div className="text-bluee text-fourth sm:text-third lg:text-secondary">
         {sentence1.map((letter, index) => {
             return(
                 <Textspan key={index}>
@@ -28,7 +28,7 @@ const Second = () => {
             <p>Interested to see some more? Visit my <a href="https://github.com/tilak29" className="text-bluee"> Github </a>  page.</p>
         </div>
         
-        <a href="https://github.com/tilak29" class="hbtn hb-fill-right left-[80%]">
+        <a href="https://github.com/tilak29" class="button left-[1rem] mt-5 xl:left-[80%] xl:mt-0">
         See more!
         </a>
 

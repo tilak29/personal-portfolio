@@ -1,6 +1,4 @@
-
- 
- const Form = () => {
+  const Form = () => {
     return(
         <>
         <div className="mt-4 flex flex-col gap-2 max-w-[97%]">
@@ -22,7 +20,7 @@
         
         <div className="self-end">
         <button class="button mt-8">
-        Send Message
+        Send Message!
         </button>
         </div>
         

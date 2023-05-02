@@ -10,9 +10,9 @@ const Skills = () => {
     return(
         <>
         {/* <Navbar/> */}
-        <div className="flex gap-10 items-center relative left-10 max-w-[90%]">
-            <div className="w-[55%]">
-        <div className="text-bluee text-secondary">
+        <div className="md:flex gap-10 items-center relative left-10 max-w-[90%]">
+            <div className="w-[90%] md:w-[55%]">
+        <div className="text-bluee ttext-fourth sm:text-third lg:text-secondary">
         {sentence1.map((letter, index) => {
             return(
                 <Textspan key={index}>
@@ -23,7 +23,7 @@ const Skills = () => {
             }  
         )}
         </div>
-        <div className="mt-[-2rem] text-bluee text-secondary">
+        <div className="mt-[-2rem] text-bluee text-third lg:text-secondary">
         {sentence2.map((letter, index) => {
             return(
                 <Textspan key={index}>
@@ -37,21 +37,19 @@ const Skills = () => {
 
         <div className="text-[#e8e8e8] font-Roboto mt-2 ml-4 flex flex-col gap-4">
             <p className="text-ellipsis whitespace-normal break-word">
-            Since beginning my journey as a freelance developer nearly 10 years ago, I’ve done remote work for agencies, consulted for startups, and collaborated with talented people to create web products for both business and consumer use.
+            As a ReactJS developer, I have extensive skills and experience in building dynamic and responsive web applications using the latest technologies and frameworks. My expertise includes HTML, CSS, and JavaScript, which are the foundational languages for building web applications.
             </p>
             <p className="text-ellipsis whitespace-normal break-word">
-            I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development, HTML, CSS, JS, building small and medium web apps, custom plugins, features, animations, and coding interactive layouts.
-            </p>
+            I have also worked extensively with NextJS, which is a powerful framework for server-rendered React applications. My proficiency in NodeJS allows me to build fast, scalable, and efficient backend APIs that interact with frontend applications seamlessly.            </p>
             <p className="text-ellipsis whitespace-normal break-word">
-            I also have full-stack developer experience with popular open-source CMS like (WordPress, Drupal, Magento, Keystone.js and others) .
-            </p>
+            In addition to my technical skills, I have extensive experience working with popular CSS frameworks like Tailwind CSS, Material-UI (MUI), and Bootstrap. These frameworks enable me to create visually appealing, mobile-first, and responsive user interfaces that provide an excellent user experience.            </p>
             <p className="text-ellipsis whitespace-normal break-word">
             Visit my LinkedIn profile for more details or just contact me.
             </p>
         </div>
         </div>
 
-        <div className="w-[60%] flex flex-col gap-1">
+        <div className="w-[90%] md:w-[60%] mt-8 md:mt-0 flex flex-col gap-1">
             <div>
                 <p className="font-Roboto">Front-end</p>
                 <div class="w-[80%] bg-gray-200 rounded-full h-[0.15rem] mb-4 dark:bg-gray-700">
@@ -82,7 +80,8 @@ const Skills = () => {
                 <p className="font-Roboto font-semibold text-2xl">Frontend developer</p>
                 <p className="mt-2 text-regal-silver font-Roboto">Reveation Technologies</p>
                 <p className="text-sm text-regal-silver font-Roboto">Jan-2023 to present</p>
-                <p className="mt-2 text-ellipsis text-regal-silver font-Roboto whitespace-normal w-[90%] break-word">Creative brand, website design and development studio that can bring your online business dreams to life</p>
+                <p className="mt-2 text-ellipsis text-regal-silver font-Roboto whitespace-normal w-[90%] break-word">
+                    Creative brand, website design and development studio that can bring your online business dreams to life.</p>
             </div>
         </div>
         </div>

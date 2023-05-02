@@ -9,6 +9,8 @@ export default {
       fontSize: {
         primary: '5.5rem',
         secondary: '4.4rem',
+        third: '3.2rem',
+        fourth: '2rem',
       },
       fontFamily:{
         Open: ['Open Sans', 'sans-serif'],

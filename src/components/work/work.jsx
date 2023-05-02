@@ -28,7 +28,7 @@ const Work = () => {
             keshroot
           </h3>
           <p className="text-xs tracking-widest text-regal-silver">
-            sasd sad sad a wdfgd a da wdawda
+          Transform your haircare routine with KeshRoot's nourishing products, enriched with natural ingredients.
           </p>
           </div>
           </a>
@@ -40,7 +40,7 @@ const Work = () => {
             Zero Zero
           </h3>
           <p className="text-xs tracking-widest text-regal-silver">
-            sasd sad sad a wdfgd a da wdawda
+          Experience the ultimate smoothness with ZeroZero's gentle and effective hair removal cream.
           </p>
           </div>
           </a>
@@ -52,7 +52,7 @@ const Work = () => {
             Crypto Tracker
           </h3>
           <p className="text-xs tracking-widest text-regal-silver">
-            sasd sad sad a wdfgd a da wdawda
+          Stay ahead of the game with Crypto Hunter's real-time tracking of cryptocurrency prices and trends.
           </p>
           </div>
           </a>
@@ -64,7 +64,7 @@ const Work = () => {
           Valley College
           </h3>
           <p className="text-xs tracking-widest text-regal-silver">
-            sasd sad sad a wdfgd a da wdawda
+          Unlock your full potential with Valley College - a premier institution offering diverse programs and an unparalleled educational experience.
           </p>
           </div>
           </a>

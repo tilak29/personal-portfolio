@@ -11,7 +11,7 @@ const Contact = () => {
         {/* <Navbar/> */}
         <div className="flex gap-1 items-center relative left-10 w-[85%]">
             <div className="basis-full">
-        <div className="text-bluee text-secondary">
+        <div className="text-bluee text-fourth sm:text-third lg:text-secondary">
         {sentence1.map((letter, index) => {
             return(
                 <Textspan key={index}>
