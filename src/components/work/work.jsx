@@ -18,8 +18,12 @@ import crypto2 from "../../assets/crypto2.png";
 const Work = () => {
   return (
     <>
-      {/* <Navbar/> */}
-      <div className="flex flex-col justify-center flex-wrap mt-10 mx-16 gap-3 w-[60%]">
+  
+      <div className="md:flex">
+        <div className="absolute h-screen z-40 md:fixed top-0 left-0">
+          <Navbar />
+        </div>
+      <div className="relative md:left-28 flex flex-col justify-center flex-wrap mt-10 mx-4 md:mx-16 gap-3 w-[90%] md:w-[60%]">
   
         <a href="https://www.keshroot.com/" className="transition bg-[#1d1d1d] border-[#1d1d1d] rounded-lg md:group-hover:opacity-50 md:hover:opacity-important hover:scale-[1.1]"> 
         <div className="my-6 mx-8 font-Roboto">
@@ -68,7 +72,7 @@ const Work = () => {
           </p>
           </div>
           </a>
-
+          </div>
       </div>
     </>
   );

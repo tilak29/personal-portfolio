@@ -9,8 +9,13 @@ const About = () => {
 
     return(
         <>
-        {/* <Navbar/> */}
-        <div className='flex relative items-center justify-center left-10 max-w-[85%]'>
+        
+        
+        <div className="md:flex">
+        <div className="absolute h-screen z-40 md:fixed top-0 left-0">
+          <Navbar />
+        </div>
+        <div className='flex relative items-center justify-center md:left-36 max-w-[85%]'>
             <div className=''>
         <div className="text-bluee text-fourth sm:text-third lg:text-secondary">
         {sentence1.map((letter, index) => {
@@ -43,7 +48,7 @@ I have experience working with clients from different industries, which has give
         </div>
 
         </div>
-
+</div>
         </>
     )
 

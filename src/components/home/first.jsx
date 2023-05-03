@@ -7,6 +7,7 @@ import logot from '../../assets/logot.png'
 import { Link } from "react-router-dom";
 
 
+
 const First = ({children}) => {
     const sentence1 = "Hi,".split("");
     const sentence2 = "I'm ".split("");
@@ -14,7 +15,8 @@ const First = ({children}) => {
     const sentence4 = "Web Developer".split("");
     return(
         <>
-         <div className="mt-20 h-screen relative left-16 " >
+    
+         <div className="mt-20 h-screen relative md:left-40 max-md:mx-6" >
         <div className="text-third sm:text-secondary lg:text-primary text-white">
         {sentence1.map((letter, index) => {
             return(

@@ -9,8 +9,12 @@ const Skills = () => {
 
     return(
         <>
-        {/* <Navbar/> */}
-        <div className="md:flex gap-10 items-center relative left-10 max-w-[90%]">
+        
+        <div className="md:flex">
+        <div className="absolute h-screen z-40 md:fixed top-0 left-0">
+          <Navbar />
+        </div>
+        <div className="md:flex gap-10 items-center relative md:left-36 max-w-[90%]">
             <div className="w-[90%] md:w-[55%]">
         <div className="text-bluee ttext-fourth sm:text-third lg:text-secondary">
         {sentence1.map((letter, index) => {
@@ -35,7 +39,7 @@ const Skills = () => {
         )}
         </div>
 
-        <div className="text-[#e8e8e8] font-Roboto mt-2 ml-4 flex flex-col gap-4">
+        <div className="text-[#e8e8e8] font-Roboto mt-2 md:ml-4 flex flex-col gap-4">
             <p className="text-ellipsis whitespace-normal break-word">
             As a ReactJS developer, I have extensive skills and experience in building dynamic and responsive web applications using the latest technologies and frameworks. My expertise includes HTML, CSS, and JavaScript, which are the foundational languages for building web applications.
             </p>
@@ -87,7 +91,7 @@ const Skills = () => {
         </div>
             
      
-        
+        </div>
         </div>
         </>
     )

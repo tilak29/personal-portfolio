@@ -10,8 +10,8 @@ import Skillsme from "./slillsme.jsx";
 function Home() {
   return (
     <>
-      <div className="flex">
-        <div className="fixed top-0 left-0">
+      <div className="md:flex">
+        <div className="absolute h-screen z-40 md:fixed top-0 left-0">
           <Navbar />
         </div>
         <div className="w-[88%]">
