@@ -5,7 +5,7 @@ import '../contact/contact.css';
 const Contactme = () => {
     return(
         <>
-        <div className="mb-16 relative left-6 w-[100vw]">
+        <div className="mb-16 md:relative md:left-6 w-[100vw]">
         <Contact/>
         </div>
         </>

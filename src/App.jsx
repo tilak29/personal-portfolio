@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect} from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -13,10 +13,27 @@ import Work from './components/work/work'
 
 function App() {
 
+  // const [showNavbar, setShowNavbar] = useState(false);
+
+  // const handleShowNavbar = () => {
+  //   setShowNavbar(!showNavbar)
+  // };
+
+
+  // useEffect(() => {
+  //   if (showNavbar) {
+  //     document.querySelector('.cover_').style.display = 'flex';
+  //   } else {
+  //     document.querySelector('.cover_').style.display = 'none';
+  //   }
+  // }, [showNavbar]);
+
   return (
     <>
-    <div className='header'>
-      {/* <Navbar/> */}
+    <div className='md:flex header'>
+    <div className={`absolute z-40 top-0 left-0`}>
+          <Navbar />
+        </div>
       <Routes>
      <Route path='/' element={<Home/>} />
      <Route path='/about' element={<About/>} />

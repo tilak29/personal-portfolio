@@ -16,8 +16,8 @@ const First = ({children}) => {
     return(
         <>
     
-         <div className="mt-20 h-screen relative md:left-40 max-md:mx-6" >
-        <div className="text-third sm:text-secondary lg:text-primary text-white">
+         <div className="mt-20 max-md:mb-16 md:h-screen relative md:left-40 max-md:ml-6" >
+        <div className="text-[2.7rem] sm:text-secondary lg:text-primary text-white">
         {sentence1.map((letter, index) => {
             return(
                 <Textspan key={index}>
@@ -27,7 +27,7 @@ const First = ({children}) => {
             )
             }  
         )}
-        <div className="flex items-baseline -mt-10">
+        <div className="flex items-baseline md:-mt-10">
             <div>
         {sentence2.map((letter, index) => {
             return(
@@ -39,7 +39,7 @@ const First = ({children}) => {
             }  
         )}
         </div>
-        <img src={logot} className="h-16"></img>
+        <img src={logot} className="md:h-16"></img>
         <div>
         {sentence3.map((letter, index) => {
             return(
@@ -52,7 +52,7 @@ const First = ({children}) => {
         )}
         </div>
         </div>
-        <div className="mt-[-2rem]">
+        <div className="md:mt-[-2rem]">
         {sentence4.map((letter, index) => {
             return(
                 <Textspan key={index}>
@@ -67,7 +67,7 @@ const First = ({children}) => {
        
 
        <div>
-        <p className="text-xl text-regal-silver">Frontend Developer / React.Js Developer</p>
+        <p className="text-lg md:text-xl text-regal-silver">Frontend Developer / React.Js Developer</p>
        </div>
 
         

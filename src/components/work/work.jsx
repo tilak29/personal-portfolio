@@ -21,7 +21,7 @@ const Work = () => {
   
       <div className="md:flex">
         <div className="absolute h-screen z-40 md:fixed top-0 left-0">
-          <Navbar />
+          {/* <Navbar /> */}
         </div>
       <div className="relative md:left-28 flex flex-col justify-center flex-wrap mt-10 mx-4 md:mx-16 gap-3 w-[90%] md:w-[60%]">
   

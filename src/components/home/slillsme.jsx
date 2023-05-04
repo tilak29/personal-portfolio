@@ -5,7 +5,7 @@ import '../skills/skills.css';
 const Skillsme = () => {
     return(
         <>
-        <div className="mb-12 mt-12 relative left-6 w-[100vw]">
+        <div className="mb-12 mt-12 md:relative md:left-6 w-[100vw]">
         <Skills/>
         </div>
         </>

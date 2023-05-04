@@ -18,6 +18,23 @@
     display: block;
 }
 
+.nav{
+ background-color: #100D15;
+ position: relative;
+ height: 100vh;
+}
+
+@media (max-width: 767px) {
+    .nav{
+        background-color: #100D15;
+        position: absolute;
+        display: none;
+        width: 1vw;
+        height: 100vh;
+       }
+}
+
+
 @media (min-width: 768px) {
     #sidebar {
         --tw-translate-x: 0;

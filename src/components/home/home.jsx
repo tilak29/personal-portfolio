@@ -11,10 +11,10 @@ function Home() {
   return (
     <>
       <div className="md:flex">
-        <div className="absolute h-screen z-40 md:fixed top-0 left-0">
+        {/* <div className="absolute h-screen z-40 md:fixed top-0 left-0">
           <Navbar />
-        </div>
-        <div className="w-[88%]">
+        </div> */}
+        <div className="md:w-[88%]">
         <First/>
         <Second/>
         <Workme/>

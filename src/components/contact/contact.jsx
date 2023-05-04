@@ -11,9 +11,9 @@ const Contact = () => {
        
         <div className="md:flex">
         <div className="absolute h-screen z-40 md:fixed top-0 left-0">
-          <Navbar />
+          {/* <Navbar /> */}
         </div>
-        <div className="md:flex gap-1 items-center relative md:left-36 w-[85%]">
+        <div className="md:flex gap-1 items-center relative left-6 md:left-36 w-[85%]">
             <div className="basis-full">
         <div className="text-bluee text-fourth sm:text-third lg:text-secondary">
         {sentence1.map((letter, index) => {

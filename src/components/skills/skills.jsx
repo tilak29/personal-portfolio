@@ -12,11 +12,11 @@ const Skills = () => {
         
         <div className="md:flex">
         <div className="absolute h-screen z-40 md:fixed top-0 left-0">
-          <Navbar />
+          {/* <Navbar /> */}
         </div>
-        <div className="md:flex gap-10 items-center relative md:left-36 max-w-[90%]">
+        <div className="md:flex gap-10 items-center relative left-6 md:left-36 md:max-w-[90%]">
             <div className="w-[90%] md:w-[55%]">
-        <div className="text-bluee ttext-fourth sm:text-third lg:text-secondary">
+        <div className="text-bluee text-fourth sm:text-third lg:text-secondary">
         {sentence1.map((letter, index) => {
             return(
                 <Textspan key={index}>
@@ -27,7 +27,7 @@ const Skills = () => {
             }  
         )}
         </div>
-        <div className="mt-[-2rem] text-bluee text-third lg:text-secondary">
+        <div className="max-sm:mt-[-1rem] mt-[-2rem] text-bluee text-fourth sm:text-third lg:text-secondary">
         {sentence2.map((letter, index) => {
             return(
                 <Textspan key={index}>
@@ -48,7 +48,7 @@ const Skills = () => {
             <p className="text-ellipsis whitespace-normal break-word">
             In addition to my technical skills, I have extensive experience working with popular CSS frameworks like Tailwind CSS, Material-UI (MUI), and Bootstrap. These frameworks enable me to create visually appealing, mobile-first, and responsive user interfaces that provide an excellent user experience.            </p>
             <p className="text-ellipsis whitespace-normal break-word">
-            Visit my LinkedIn profile for more details or just contact me.
+            Visit my <span> <a href="https://www.linkedin.com/in/tilak-adroja/" className="text-bluee">  LinkedIn </a> </span> profile for more details or just contact me.
             </p>
         </div>
         </div>
@@ -56,30 +56,30 @@ const Skills = () => {
         <div className="w-[90%] md:w-[60%] mt-8 md:mt-0 flex flex-col gap-1">
             <div>
                 <p className="font-Roboto">Front-end</p>
-                <div class="w-[80%] bg-gray-200 rounded-full h-[0.15rem] mb-4 dark:bg-gray-700">
+                <div class="md:w-[80%] bg-gray-200 rounded-full h-[0.15rem] mb-4 dark:bg-gray-700">
                 <div class="bg-bluee h-[0.15rem] rounded-full dark:bg-blue-500" style={{width: "90%"}}></div>
                 </div>
             </div>
             <div>
                 <p className="font-Roboto">ReactJS</p>
-                <div class="w-[80%] bg-gray-200 rounded-full h-[0.15rem] mb-4 dark:bg-gray-700">
+                <div class="md:w-[80%] bg-gray-200 rounded-full h-[0.15rem] mb-4 dark:bg-gray-700">
                 <div class="bg-[#ff2253] h-[0.15rem] rounded-full dark:bg-blue-500" style={{width: "85%"}}></div>
                 </div>
             </div>
             <div>
                 <p className="font-Roboto">Next</p>
-                <div class="w-[80%] bg-gray-200 rounded-full h-[0.15rem] mb-4 dark:bg-gray-700">
+                <div class="md:w-[80%] bg-gray-200 rounded-full h-[0.15rem] mb-4 dark:bg-gray-700">
                 <div class="bg-[#d26cd5] h-[0.15rem] rounded-full dark:bg-blue-500" style={{width: "75%"}}></div>
                 </div>
             </div>
             <div>
                 <p className="font-Roboto">NodeJS</p>
-                <div class="w-[80%] bg-gray-200 rounded-full h-[0.15rem] mb-4 dark:bg-gray-700">
+                <div class="md:w-[80%] bg-gray-200 rounded-full h-[0.15rem] mb-4 dark:bg-gray-700">
                 <div class="bg-bluee h-[0.15rem] rounded-full dark:bg-blue-500" style={{width: "62%"}}></div>
                 </div>
             </div>
 
-            <div className="flex mt-4 max-w-[60%]">
+            <div className="flex mt-4 md:max-w-[60%]">
             <div className="bg-[#14101b] max-w-[90%] p-4 border border-solid border-[#14101b] rounded-lg">
                 <p className="font-Roboto font-semibold text-2xl">Frontend developer</p>
                 <p className="mt-2 text-regal-silver font-Roboto">Reveation Technologies</p>
