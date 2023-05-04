@@ -6,7 +6,7 @@ import { IoMdMail } from 'react-icons/io';
 import './navbar.css'
 
 function Navbar(){
-    const [showNavbar, setShowNavbar] = useState(false);
+    const [showNavbar, setShowNavbar] = useState(true);
     
     const handleShowNavbar = () => {
         setShowNavbar(!showNavbar)
@@ -52,7 +52,7 @@ function Navbar(){
             
 
 
-    <div class="md:fixed md:min-h-screen md:flex" 
+    <div class="md:fixed md:h-screen md:flex md:bg-[#100D15]" 
     data-dev-hint="container"
     >
     <input type="checkbox" id="menu-open" class="hidden" />

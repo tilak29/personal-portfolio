@@ -30,7 +30,7 @@ function App() {
 
   return (
     <>
-    <div className='md:flex header'>
+    <div className='md:flex md:h-screen header'>
     <div className={`absolute z-40 top-0 left-0`}>
           <Navbar />
         </div>
