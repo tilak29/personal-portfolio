@@ -52,7 +52,7 @@ function Navbar(){
             
 
 
-    <div class="md:fixed md:h-screen md:flex md:bg-[#100D15]" 
+    <div class="md:fixed h-screen md:flex md:bg-[#100D15]" 
     data-dev-hint="container"
     >
     <input type="checkbox" id="menu-open" class="hidden" />
@@ -93,7 +93,7 @@ function Navbar(){
                 </Link>
                 <p className='font-Open text-xs text-regal-silver mt-2'>Web Developer</p>
             </div>
-            <div className='bg-[#100D15] flex flex-col justify-center items-center text-regal-silver text-[1.1rem] '>
+            <div className='bg-[#100D15] max-md:mb-6 flex flex-col justify-center items-center text-regal-silver text-[1.1rem] '>
                 <div className='border-regal-silver border-y-[1px] w-full h-full text-center py-4'> 
                 <Link onClick={() => handleShowNavbar(false)} className='hover:text-[#19e4c3]' to='/about'>About</Link>
                 </div>
@@ -106,7 +106,7 @@ function Navbar(){
                 <div className='border-regal-silver border-b-[1px] w-full h-full text-center py-4'> 
                 <Link onClick={() => handleShowNavbar(false)} className='text-[#19e4c3]' to='/contact'>Contact</Link>
                 </div>
-                <div className='mt-2 flex gap-3 mb-4'>
+                <div className='mt-2 flex gap-3 mb-8'>
                     <a href='https://www.linkedin.com/in/tilak-adroja/'><FaLinkedin/></a>
                     <a href='https://github.com/tilak29'><FaGithub/></a >
                     <a href='mailto:tilakadroja29@gmail.com'><IoMdMail/></a >
