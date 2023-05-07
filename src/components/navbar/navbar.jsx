@@ -52,7 +52,7 @@ function Navbar(){
             
 
 
-    <div class="md:fixed h-screen md:flex md:bg-[#100D15]" 
+    <div class="md:fixed md:min-h-screen md:flex md:bg-[#100D15]" 
     data-dev-hint="container"
     >
     <input type="checkbox" id="menu-open" class="hidden" />
