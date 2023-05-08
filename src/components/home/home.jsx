@@ -16,7 +16,7 @@ function Home() {
         </div> */}
         <div className="md:w-[88%]">
         <First/>
-        <Second/>
+        <Second />
         <Workme/>
         <Skillsme/>
         {/* <Aboutme/> */}

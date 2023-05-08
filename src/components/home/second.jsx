@@ -1,14 +1,14 @@
 import Work from "../work/work";
 import Textspan from "./Textspan";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 const Second = () => {
     const sentence1 = "My portfolio".split("");
 
-
     return(
         <>
-        <div className="mt-0 relative md:left-40 max-md:mx-6">
+        <div data-aos="fade-down" className="mt-0 relative md:left-40 max-md:mx-6">
         <div className="text-bluee text-fourth sm:text-third lg:text-secondary">
         {sentence1.map((letter, index) => {
             return(

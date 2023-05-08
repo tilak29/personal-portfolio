@@ -1,11 +1,14 @@
 import Work from '../work/work';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 
 const Workme = () => {
     return(
         <>
-        
-        <Work/>
+        <div data-aos="fade-down">
+        <Work />
+        </div>
        
         </>
     )

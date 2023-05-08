@@ -1,7 +1,8 @@
 import Textspan from "../home/Textspan";
 import Navbar from "../navbar/navbar";
 import './skills.css'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 const Skills = () => {
     const sentence1 = "Skills &".split("");
@@ -9,14 +10,13 @@ const Skills = () => {
 
     return(
         <>
-        
         <div className="md:flex">
         <div className="absolute h-screen z-40 md:fixed top-0 left-0">
           {/* <Navbar /> */}
         </div>
         <div className="md:flex gap-10 items-center relative left-6 md:left-36 md:max-w-[90%]">
             <div className="w-[90%] md:w-[55%]">
-        <div className="text-bluee text-fourth sm:text-third lg:text-secondary">
+        <div data-aos="fade-right" className="text-bluee text-fourth sm:text-third lg:text-secondary">
         {sentence1.map((letter, index) => {
             return(
                 <Textspan key={index}>
@@ -27,7 +27,7 @@ const Skills = () => {
             }  
         )}
         </div>
-        <div className="max-sm:mt-[-1rem] mt-[-2rem] text-bluee text-fourth sm:text-third lg:text-secondary">
+        <div data-aos="fade-right" className="max-sm:mt-[-1rem] mt-[-2rem] text-bluee text-fourth sm:text-third lg:text-secondary">
         {sentence2.map((letter, index) => {
             return(
                 <Textspan key={index}>
@@ -39,7 +39,7 @@ const Skills = () => {
         )}
         </div>
 
-        <div className="text-[#e8e8e8] font-Roboto mt-2 md:ml-4 flex flex-col gap-4">
+        <div data-aos="fade-right" className="text-[#e8e8e8] font-Roboto mt-2 md:ml-4 flex flex-col gap-4">
             <p className="text-ellipsis whitespace-normal break-word">
             As a ReactJS developer, I have extensive skills and experience in building dynamic and responsive web applications using the latest technologies and frameworks. My expertise includes HTML, CSS, and JavaScript, which are the foundational languages for building web applications.
             </p>
@@ -53,7 +53,7 @@ const Skills = () => {
         </div>
         </div>
 
-        <div className="w-[90%] md:w-[60%] mt-8 md:mt-0 flex flex-col gap-1">
+        <div data-aos="fade-right" className="w-[90%] md:w-[60%] mt-8 md:mt-0 flex flex-col gap-1">
             <div>
                 <p className="font-Roboto">Front-end</p>
                 <div class="md:w-[80%] bg-gray-200 rounded-full h-[0.15rem] mb-4 dark:bg-gray-700">
@@ -79,7 +79,7 @@ const Skills = () => {
                 </div>
             </div>
 
-            <div className="flex mt-4 md:max-w-[60%]">
+            <div data-aos="fade-right" className="flex mt-4 md:max-w-[60%]">
             <div className="bg-[#14101b] max-w-[90%] p-4 border border-solid border-[#14101b] rounded-lg">
                 <p className="font-Roboto font-semibold text-2xl">Frontend developer</p>
                 <p className="mt-2 text-regal-silver font-Roboto">Reveation Technologies</p>
