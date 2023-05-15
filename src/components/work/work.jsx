@@ -27,7 +27,7 @@ const Work = () => {
       <div className="relative md:left-28 flex flex-col justify-center flex-wrap mt-10 mx-4 md:mx-16 gap-3 w-[90%] md:w-[60%]">
   
         <a href="https://www.keshroot.com/" className="transition bg-[#1d1d1d] border-[#1d1d1d] rounded-lg md:group-hover:opacity-50 md:hover:opacity-important hover:scale-[1.1]"> 
-        <div data-aos="fade-down" className="my-6 mx-8 font-Roboto">
+        <div  className="my-6 mx-8 font-Roboto">
           <p className="text-sm ">ReactJS</p>
           <h3 className="mt-2 text-2xl font-semibold">
             keshroot
@@ -39,7 +39,7 @@ const Work = () => {
           </a>
        
           <a href="https://www.zerozeroindia.com/" className="transition bg-[#1d1d1d] border-[#1d1d1d] rounded-lg md:group-hover:opacity-50 md:hover:opacity-important hover:scale-[1.1]"> 
-        <div data-aos="fade-down" className="my-6 mx-8 font-Roboto">
+        <div  className="my-6 mx-8 font-Roboto">
           <p className="text-sm ">ReactJS</p>
           <h3 className="mt-2 text-2xl font-semibold">
             Zero Zero
@@ -51,7 +51,7 @@ const Work = () => {
           </a>
 
           <a href="https://crypto-tracker-tilak.netlify.app/" className="transition bg-[#1d1d1d] border-[#1d1d1d] rounded-lg md:group-hover:opacity-50 md:hover:opacity-important hover:scale-[1.1]"> 
-        <div data-aos="fade-down" className="my-6 mx-8 font-Roboto">
+        <div  className="my-6 mx-8 font-Roboto">
           <p className="text-sm ">ReactJS</p>
           <h3 className="mt-2 text-2xl font-semibold">
             Crypto Tracker
@@ -63,7 +63,7 @@ const Work = () => {
           </a>
 
           <a href="https://github.com/tilak29/Valley-college" className="transition bg-[#1d1d1d] border-[#1d1d1d] rounded-lg md:group-hover:opacity-50 md:hover:opacity-important hover:scale-[1.1]"> 
-        <div data-aos="fade-down" className="my-6 mx-8 font-Roboto">
+        <div className="my-6 mx-8 font-Roboto">
           <p className="text-sm ">ReactJS</p>
           <h3 className="mt-2 text-2xl font-semibold">
           Valley College
